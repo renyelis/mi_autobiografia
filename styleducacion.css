@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/Diseño\ sin\ título.jpg);
+ 
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+ 
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
